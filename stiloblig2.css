@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Domine');
+
+body * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("fog.jpg");
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    background-color: black;
+    color: white; 
+    font-family: 'Domine', serif;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(92, 188, 210, 1);
+    color: darkgray;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto; 
+}
+
+#artikler {
+    padding: 10px;
+    background-color: rgba(93, 188, 210, 0.7);
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+#artikler header {
+    text-align: center;
+}
+
+#artikler article {
+    display: inline-block;
+    width: 33%;
+}
+
+p {
+    margin: auto;
+    padding: 10px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    overflow: scroll;
+    border-collapse: collapse; 
+}
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: rgba(181, 184, 191, 0.7);
+    text-align: center;
+    color: darkgray;
+}
+
+footer a {
+    color: black; 
+}
+
+#info {
+    float: left;
+    padding: 10px;
+    background-color: rgba(93, 188, 210, 0.7);
+    width: 40%;
+    height: 150px;
+    display: block; 
+    margin: 20px 10% 100px 0;
+    
+}
+
+#info ul {
+    list-style-type: none;
+}
+
+
+#tabell {
+    padding: 10px;
+    background-color: rgba(93, 188, 210, 0.7);
+    width: 80%;
+    display: block; 
+    margin: 20px auto;
+}
+
+#linkearkiv{
+    float: left;
+    padding: 10px;
+    background-color: rgba(93, 188, 210, 0.7);
+    width: 40%;
+    height: 150px;
+    display: block; 
+    margin: 20px 0 100px 10%;
+}
+
+.artikkeltekst {
+    padding: 10px;
+    background-color: rgba(93, 188, 210, 0.7);
+    width: 80%;
+    display: block;
+    margin: 20px auto;
+}
+
+.lesKnapp {
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+}
+
+main a:link {
+    color: black;
+}
+
+main a:visited {
+    color: purple;
+}
+
+main a:hover {
+    color: white;
+}
+
+main a:active {
+    color: lightgreen;
+}
+
+img {
+    width: 45%;
+}
+
