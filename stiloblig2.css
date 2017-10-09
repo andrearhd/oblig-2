@@ -170,4 +170,28 @@ img {
     width: 45%;
 }
 
+.artikkeltekst table {
+    margin: 20px auto 40px auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+.artikkeltekst table td, .artikkeltekst table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.artikkeltekst th {
+    background-color: gray;
+}
+
+.artikkeltekst table tr {
+    background-color: lightblue;
+}
+
+.artikkeltekst table tr:nth-child(even) {
+    background-color: lightseagreen;
+    
+}
+
 
